@@ -13,6 +13,16 @@ public class Alien {
     public Alien() {
 
 
+    //Step 3 this. to reference fields above
+
+    this.from = from;
+
+    }
+
+    //Step 4 create getter methods for this. fields
+
+    public String getFrom() {
+        return this.from;
     }
 
 }
